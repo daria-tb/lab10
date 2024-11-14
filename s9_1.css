@@ -1,0 +1,48 @@
+@font-face 
+        {
+            font-family: 'Times New Roman';
+            src: url('fonts/TimesNewRoman.ttf') format('truetype'); /* Вказати правильний шлях до файлу */
+        }
+        
+        /* стилі для тіла сторінки */
+        body 
+        {
+            background-color: rgb(143, 5, 5); /* Червоний фон для всієї сторінки */
+            font-family: 'Times New Roman', serif; /* Шрифт Times New Roman */
+            color: white; /* Білий колір тексту для контрасту */
+        }
+
+        .container 
+        {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* стилі для блоку з картинкою і текстом */
+        .image-description 
+        {
+            display: flex;
+            margin: 20px;
+            overflow: hidden;
+        }
+        
+        /* стилі для зображень в блоці */
+        .image-description img 
+        {
+            width: 200px;
+            margin-right: 20px;
+        }
+        
+        /* стилі для тексту в описі */
+        .description 
+        {
+            width: 600px;
+            overflow: auto;
+        }
+
+        .image-description p 
+        {
+            margin: 0; /* усуваємо відступи для абзаців */
+        }

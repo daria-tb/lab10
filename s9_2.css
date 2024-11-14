@@ -1,0 +1,110 @@
+body 
+{
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* стилі для заголовка */
+header 
+{
+    background-color: #e2b0ca;
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+}
+
+/* стилі для навігаційного меню */
+.nav 
+{
+    width: 15%;
+    background-color: rgb(248, 188, 229);
+    float: left;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav ul 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li 
+{
+    list-style-type: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.nav a 
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* стилі для основного */
+main 
+{
+    width: 80%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+article 
+{
+    margin-bottom: 20px;
+}
+
+article h2 
+{
+    color: #000000;
+}
+
+/* стилі для нижнього колонтитулу */
+footer 
+{
+    clear: both;
+    background-color: #e2b0ca;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+        
+/* стилі для навігаційного меню */
+.nav 
+{
+    width: 15%;
+    background-color: #e2b0ca;
+    float: left;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.nav ul 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.nav ul li 
+{
+    list-style-type: none;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.nav a 
+{
+    text-decoration: none;
+    color: #333;
+}
+
+/* зміна кольору при наведенні */
+.nav a:hover 
+{
+    color: #ffffff; 
+}
