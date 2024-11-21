@@ -1,0 +1,38 @@
+.container 
+{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.block1, .block2, .block3 
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.block1 
+{
+    background-color: rgb(231, 155, 197);
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.block2 
+{
+    background-color: rgb(245, 225, 214);
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+
+.block3 
+{
+    background-color: rgb(227, 157, 138);
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}
